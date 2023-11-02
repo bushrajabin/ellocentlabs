@@ -1,0 +1,16 @@
+.client{
+    background-color: green;
+    /* display: flex; */
+}
+
+.clientResult{
+    text-align: center;
+    color: lightseagreen;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.ifarmevideo{
+    display: flex;
+    flex-direction: row;
+}

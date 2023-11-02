@@ -1,0 +1,40 @@
+.clientSay {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ 
+}
+
+.client_img {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 10px;
+
+}
+
+.rating {
+    width: 90px;
+    margin: 10px;
+}
+
+.clientSay>h2 {
+    color: cornflowerblue;
+    font-size: 37px;
+}
+
+.clientSay>h3 {
+    margin-top: 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.clientSay>p{
+    padding-left: 26%;
+    padding-right: 26%;
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.about {
+    /* background-color: yellow; */
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+.about>h2 {
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.about>h1 {
+    font-size: 45px;
+    padding-right: 50px;
+}
+
+.about>p {
+    font-size: 20px;
+    color: black;
+}
+
+.btn2 {
+    background: rgb(17, 17, 93);
+    background: linear-gradient(90deg, rgba(17, 17, 93, 1) 0%, rgba(98, 100, 152, 1) 100%, rgba(202, 206, 228, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image {
+    width: 50%;
+
+}
+
+.image>img {
+    width: 60%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 25%;
+}
