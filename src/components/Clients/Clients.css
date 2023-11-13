@@ -1,6 +1,5 @@
 .client{
-    background-color: green;
-    /* display: flex; */
+ 
 }
 
 .clientResult{
@@ -13,4 +12,16 @@
 .ifarmevideo{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos{
+    object-fit: cover;
+    width: 660px;
+    height: 400px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  
 }

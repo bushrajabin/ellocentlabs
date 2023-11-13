@@ -5,13 +5,12 @@
 import "./Nav.css"
 
 const Nav = () => {
-    const links = ["Services", "Technologies", "Industris", "Portfolio", "Blog", "Company"]
+     const links = ["Services", "Technologies", "Industris", "Portfolio", "Blog", "Company"]
     return (
         <nav className="container">
             <div className="logo">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ3LF8LvX6rVhvBAr_jnh7W7TCJVdAecf7Fw&usqp=CAU" alt="" />
-                {/* <ReactLogo /> */}
-                {/* <img src={ReactLogo} alt="" /> */}
+         
 
             </div>
             <div className="link"> 
@@ -25,7 +24,7 @@ const Nav = () => {
 
             <button className="btn1">Contact US</button>
             </div>
-        
+
         </nav>
 
     )

@@ -3,20 +3,28 @@ import "./Awards.css"
 const Awards = () => {
 
     return (
-        <div className="awardList">
 
+        <div className="awardpage">
+            <div className="awardTitle">
+                <h2>Awards and Accolades</h2>
+                <h3>Experience our Precision, Quality & Agility</h3>
+            </div>
+            <div className="awardList">
+                {
+                    awardImages.map((data, index, array) => {
 
-            {
-                awardImages.map((image, index, array) => {
-                    return (
-                        <div className="award">
-                            <img src={image} className="videos"></img>
-                        </div>
-                    )
+                        return (
+                            <div className="div-for-award">
+                                <img src={data.Image} ></img>
+                                <p>{data.title}</p>
+                            </div>
 
-                })
-            }
+                        )
+                    })
+                }
+            </div>
         </div>
+
     )
 }
 

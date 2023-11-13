@@ -6,6 +6,8 @@ import Highlight from "./components/Highlight/Highlight";
 import Clients from "./components/Clients/Clients";
 import ClientsSay from "./components/ClientsSay/ClientsSay";
 import Awards from "./components/Awarads/Awards";
+import Tradepage from "./components/TradePage/TradePage";
+import Blog from "./components/Blog/Blog";
 import React from "react";
 function App() {
   return (
@@ -16,7 +18,8 @@ function App() {
       <Clients  />
       <ClientsSay/>
       <Awards/>
-
+      <Tradepage/>
+<Blog/>
     </React.Fragment>
   );
 }
