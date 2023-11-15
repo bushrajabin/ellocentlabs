@@ -1,23 +1,26 @@
-.blog{
+.blog {
     cursor: pointer;
 }
-.top-title>h2{
+
+.top-title>h2 {
     text-align: center;
     color: cornflowerblue;
     font-size: 40px;
 }
-.top-title>h3{
+
+.top-title>h3 {
     text-align: center;
     letter-spacing: 1px;
     font-size: 20px;
 }
-.images-for-blog{
+
+.images-for-blog {
     display: flex;
     flex-direction: row;
 }
 
 
-.blog-images{
+.blog-images {
     background-color: white;
     border-radius: 10px;
     margin: 30px;
@@ -25,7 +28,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.blog-images>img{
+.blog-images>img {
     width: 450px;
     height: 200px;
     object-fit: cover;
@@ -34,25 +37,28 @@
 
 }
 
-.blog-images>h2{
+.blog-images>h2 {
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.blog-images>p{
+.blog-images>p {
     padding-left: 20px;
     font-size: 20px;
     color: cornflowerblue;
     letter-spacing: 1px;
 }
 
-.blog-images>button{
-padding: 10px;
-border: none;
-margin-left: 30px;
-margin: 10px;
-background-color: transparent;
-font-size: 20px;
-color: cornflowerblue
-;
+.blog-images>p:hover{
+ color: black;
+}
+.blog-images>button {
+    padding: 10px;
+    border: none;
+    margin-left: 30px;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    color: cornflowerblue;
 }

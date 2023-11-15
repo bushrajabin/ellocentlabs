@@ -58,7 +58,7 @@ export const awardImages = [
 export const workImage = [
   {
     image: "./Images/img-10.png",
-    title1: "GURBANI UPDESH",
+    title1: "GURBANIUPDESH",
     title2:
       "The user can enjoy the interactive, userfriendly app as it is available in bi-languages like English and Punjabi. The main attractive feature of this app as it offers a five paths- Japji Sahib ji, Jaap Sahibn ji, Tav Prasad Saviye ji, Chaupai Sahib ji....",
   },
@@ -70,7 +70,7 @@ export const workImage = [
   },
   {
     image: "./Images/img-12.svg",
-    title1: "COINhaven",
+    title1: "COINHAVAN",
     title2:
       "Coinhaven is an all-in-one trading and exchange platform for desktop and mobile devices where users can easily buy Bitcoin and other blockchain assets with a variety of fiat currencies. Users can also exchange their Bitcoin for various cryptocurrencies – such as Ethereum – with just a few clicks....Coinhaven is an all-in-one tradin",
   },
