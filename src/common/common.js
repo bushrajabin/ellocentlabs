@@ -14,24 +14,18 @@ export const highlightKey = [
   },
   {
     image: "./Images/img-2.png",
-    title1:
-      "100+",
-    title2:
-      "Successfully Delivering Projects ",
+    title1: "100+",
+    title2: "Successfully Delivering Projects ",
   },
   {
     image: "./Images/img-3.png",
-    title1:
-      "40+",
-    title2:
-      "Professionals Under One Umbrella ",
+    title1: "40+",
+    title2: "Professionals Under One Umbrella ",
   },
   {
     image: "./Images/img-4.png",
-    title1:
-      "30+",
-    title2:
-      "Happy Clients ",
+    title1: "30+",
+    title2: "Happy Clients ",
   },
 ];
 // these are for Awards...
@@ -59,6 +53,28 @@ export const awardImages = [
   },
 ];
 
+// These are for package/work..........
+
+export const workImage = [
+  {
+    image: "./Images/img-10.png",
+    title1: "GURBANI UPDESH",
+    title2:
+      "The user can enjoy the interactive, userfriendly app as it is available in bi-languages like English and Punjabi. The main attractive feature of this app as it offers a five paths- Japji Sahib ji, Jaap Sahibn ji, Tav Prasad Saviye ji, Chaupai Sahib ji....",
+  },
+  {
+    image: "./Images/img-11.png",
+    title1: "Zapp Taxi",
+    title2:
+      "In recent months, we have developed the zapp customer app for our Netherlands-based client. It gives the full privilege to customers to book the ride by sending the booking request to nearby drivers. The various functionalities of this app are ride....",
+  },
+  {
+    image: "./Images/img-12.svg",
+    title1: "COINhaven",
+    title2:
+      "Coinhaven is an all-in-one trading and exchange platform for desktop and mobile devices where users can easily buy Bitcoin and other blockchain assets with a variety of fiat currencies. Users can also exchange their Bitcoin for various cryptocurrencies – such as Ethereum – with just a few clicks....Coinhaven is an all-in-one tradin",
+  },
+];
 // These images are for trade image....
 
 export const tradeImages = [

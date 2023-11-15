@@ -8,6 +8,7 @@ import ClientsSay from "./components/ClientsSay/ClientsSay";
 import Awards from "./components/Awarads/Awards";
 import Tradepage from "./components/TradePage/TradePage";
 import Blog from "./components/Blog/Blog";
+import Work from "./components/Work/Work";
 import React from "react";
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
       <Clients  />
       <ClientsSay/>
       <Awards/>
+      <Work/>
       <Tradepage/>
+
 <Blog/>
     </React.Fragment>
   );

@@ -1,0 +1,16 @@
+.packageDiv{
+    background-color: yellow;
+}
+.package-top-title{
+    padding-left: 40px;
+}
+
+.package-top-title>h2{
+    font-size: 38px;
+    color: cornflowerblue;
+}
+
+.package-top-title>p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}

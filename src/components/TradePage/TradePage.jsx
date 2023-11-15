@@ -6,8 +6,8 @@ import { tradeImages } from "../../common/common"
 const webImage = "https://ellocentlabs.com/static/toolsoftradefeatured-2d165abd2755f312cd97bd0d87be6b95.svg"
 
 const Tradepage = () => {
-  
-  const onlinks=(link)=>{
+
+  const onlinks = (link) => {
     console.log(link)
 
   }
@@ -23,12 +23,12 @@ const Tradepage = () => {
           {
             tradeImages.map((data, index, array) => {
 
-              const{Image,title,link}=data
+              const { Image, title, link } = data
               return (
                 <div className="award">
-                  <img src={Image} onClick={()=>onlinks(link)} ></img>
+                  <a href={link} target="_blank"><img src={Image} onClick={() => onlinks(link)} ></img></a>
                   <p>{title}</p>
-                  {/* <p>{link}</p> */}
+
                 </div>
 
 
