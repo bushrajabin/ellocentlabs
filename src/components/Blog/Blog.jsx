@@ -13,19 +13,23 @@ const Blog = () => {
                 {
 
                     BlogImage.map((data, index, arr) => {
-                        const {image,title1,title2,button}=data;
+                        const { image, title1, title2, button } = data;
                         return (
                             <div className="blog-images">
                                 <img src={image} alt="image" />
                                 <h2>{title2}</h2>
                                 <p>{title2}</p>
                                 <button>{button}</button>
-                            
                             </div>
 
                         )
                     })
                 }
+
+            </div>
+
+            <div className="explore_button">
+                <button>EXPLORE MORE BLOGS </button>
             </div>
         </div>
     )

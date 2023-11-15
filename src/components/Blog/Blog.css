@@ -45,7 +45,7 @@
 
 .blog-images>p {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: cornflowerblue;
     letter-spacing: 1px;
 }
@@ -54,11 +54,25 @@
  color: black;
 }
 .blog-images>button {
-    padding: 10px;
+    padding: 7px;
     border: none;
     margin-left: 30px;
     margin: 10px;
     background-color: transparent;
     font-size: 20px;
     color: cornflowerblue;
+}
+
+.explore_button{
+    text-align: center;
+}
+
+.explore_button>button{
+    width: 350px;
+    padding: 14px;
+    margin: 20px;
+    font-size: 18px;
+    background-color: lightskyblue;
+    border:none;
+border-radius: 10px;
 }
