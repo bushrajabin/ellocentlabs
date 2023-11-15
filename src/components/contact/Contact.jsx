@@ -1,5 +1,10 @@
 import "./Contact.css"
 const Contact = () => {
+
+    const SubmitForm=()=>{
+        // alert("hii")
+
+    }
     return (
         <div className="contact_page">
             <div className="contact_top_title">
@@ -19,8 +24,8 @@ const Contact = () => {
                     <option value="Designing Services">Designing Services</option>
                     <option value="igital Marketing">Digital Marketing</option>
                 </select>
-
-                <textarea name="" id="" cols="100" rows="1" placeholder="Note"></textarea>
+                <textarea name="" id="text" cols="100" rows="1" placeholder="Note"></textarea><br></br>
+                <button className="submitButton" onClick={SubmitForm}>SUBMIT</button>
             </div>
         </div>
 
