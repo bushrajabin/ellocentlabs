@@ -1,0 +1,21 @@
+.contact_page{
+    background-color: yellow;
+}
+
+.contact_top_title{
+    text-align: center;
+}
+
+.contact_top_title>h2{
+    font-size: 40px;
+    padding-top: 30px;
+    color: lightskyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+
+.contact_top_title>h3{
+    font-size: 22px;
+    padding-top: 0px;
+    letter-spacing: 2px;
+}
