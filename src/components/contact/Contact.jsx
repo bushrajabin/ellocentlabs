@@ -1,37 +1,31 @@
 import "./Contact.css"
+const contactUs = "./Images/contactUS.png"
+
 const Contact = () => {
-    const SubmitForm = () => {
-        // alert("hii")
-
-    }
     return (
-
-        <div className="contact_page">
-            <div className="contact_top_title">
-                <h2>Reach US Out</h2>
-                <h3>Unstoppable Innovation Starts Here</h3>
+        <div className="main-card">
+            <div className="contact-us">
+                <div className="left-titles">
+                    <h1>Contact US</h1>
+                    <button>Home</button>
+                </div>
+                <div className="right-image">
+                    <img src={contactUs} alt="" />
+                </div>
             </div>
 
-            <div className="contact_input_field">
-                < i class="fa fa -solid fa-user" /><input type="text" placeholder="Name" />
-                <i class="fa fa-solid fa-envelope"></i><input type="email" placeholder="Email" />
-                <input type="number" />
-
-                <select id="options" >
-                    <option value="select">Select Services </option>
-                    <option value="Major service">Major service</option>
-                    <option value="Web Development">Web Development </option>
-                    <option value="Mobile App  Development">Mobile App  Development</option>
-                    <option value="Designing Services">Designing Services</option>
-                    <option value="igital Marketing">Digital Marketing</option>
-                </select><br></br>
-                <i class="fa fa-file-text-o" i /><textarea name="" id="text" cols="100" rows="1" placeholder="Note"></textarea><br></br>
-                <button className="submitButton" onClick={SubmitForm}>SUBMIT</button>
+            <div className="address">
+                <h2>Visit US</h2>
+                <h4> Our Address</h4>
+                <p>Mohali</p>
+                <p>Plot No. C-184, 4th Floor, Industrial Area, Phase­ VIII­A, Sector 75, Sahibzada Ajit Singh Nagar, Punjab 160071, India</p>
             </div>
 
+            <div className="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.544835007323!2d76.68959797562013!3d30.703080174598682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feefc6d84d361%3A0xdff70f3b5d78a533!2sSTPI%20Incubation%20Center%20Mohali!5e0!3m2!1sen!2sin!4v1700130075021!5m2!1sen!2sin" />
+
+            </div>
         </div>
-
-
 
     )
 }

@@ -9,8 +9,9 @@ import Awards from "./components/Awarads/Awards";
 import Tradepage from "./components/TradePage/TradePage";
 import Blog from "./components/Blog/Blog";
 import Work from "./components/Work/Work";
+import Form from "./components/Form/Form";
+import Service from "./components/Service/Service";
 import Contact from "./components/contact/Contact";
-import Service from "./services/Service";
 import React from "react";
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
       <Work/>
       <Tradepage/>
       <Blog/>
-      <Contact/>
+      <Form/>
       <Service/>
+  <Contact/>
     </React.Fragment>
 
   );

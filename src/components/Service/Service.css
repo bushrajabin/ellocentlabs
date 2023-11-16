@@ -1,0 +1,30 @@
+.services-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+.service-heading>h3{
+justify-content: center;
+margin-top: 0px;
+}
+
+.service-types>p{
+width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 17px;
+/* margin: 49px; */
+
+}
