@@ -137,3 +137,54 @@ export const BlogImage = [
     button: "Read More",
   },
 ];
+
+// These are for services...
+
+export const Services = [
+  {
+    id: "1",
+    heading: "Major Services",
+    titles: [
+      "Artificial Inteligence",
+      "Machine Learning",
+      "Big data",
+      "IoT",
+      "Cryptocurrency",
+      "AWS/Cloud service",
+      "Data science",
+      "BOT Development",
+    ],
+  },
+  {
+    id: "2",
+    heading: "Web Development",
+    titles: [
+      "Full stack web development",
+      "MBackend development",
+      "CMS Development",
+      "Custom Web Development",
+      "Progressive App Development",
+      "AWS/Cloud service",
+      "Bubble",
+    ],
+  },
+  {
+    id: "3",
+    heading: "Hybrid App Development",
+    titles: ["React Native", "Kotlin"],
+  },
+  {
+    id: "4",
+    heading: "Major Services",
+    titles: ["UI/UX Designing", "Graphic Designing"],
+  },
+  {
+    id: "5",
+    heading: "Digital Marketing",
+    titles: [
+      "Search Engine Optimization",
+      "Social Media optimization",
+      "online reputation management",
+    ],
+  },
+];

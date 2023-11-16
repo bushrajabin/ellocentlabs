@@ -10,6 +10,7 @@ import Tradepage from "./components/TradePage/TradePage";
 import Blog from "./components/Blog/Blog";
 import Work from "./components/Work/Work";
 import Contact from "./components/contact/Contact";
+import Service from "./services/Service";
 import React from "react";
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
       <Tradepage/>
       <Blog/>
       <Contact/>
+      <Service/>
     </React.Fragment>
+
   );
 }
 
