@@ -1,0 +1,16 @@
+.industry{
+    display: flex;flex-direction: row;
+    justify-content: space-between;
+    background-color: red;    
+}
+
+.industry-title>button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+.industry-title>button:hover{
+    color: black;
+}

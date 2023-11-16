@@ -11,7 +11,9 @@ import Blog from "./components/Blog/Blog";
 import Work from "./components/Work/Work";
 import Form from "./components/Form/Form";
 import Service from "./components/Service/Service";
-import Contact from "./components/contact/Contact";
+import Industries from "./components/industre/Industries";
+// import Contact from "./components/contact/Contact";
+
 import React from "react";
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
       <Blog/>
       <Form/>
       <Service/>
-  <Contact/>
+  {/* <Contact/> */}
+
+  <Industries/>
     </React.Fragment>
 
   );

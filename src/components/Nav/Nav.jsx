@@ -2,23 +2,15 @@
 
 // const ReactLogo ='/Images/logo.avif'
 
+import { useEffect, useState } from "react"
 import "./Nav.css"
 
-const Nav = () => {
-    // const links = [{
-    //     id: "1",
-    //     service: "Services",
-    // }
-    //     , { id: "2", Technologies: "Technologies" }
-    //     , { id: "3", Industris: "Industris" },
-    // { id: "4", Portfolio: "Portfolio" },
-    // { id: "5", Blog: "Blog" },
-    // { id: "6", Company: "Company" }]
-
-
-    const links=["Services","Technologies","industries","Portfolio","Blog","Company"]
-        
-    
+const Nav = ({ setIsOpen }) => {
+    const showContactpage = () => {
+// alert("hii")
+        setIsOpen(true)
+    }
+const links = ["Services", "Technologies", "industries", "Portfolio", "Blog", "Company"]
     return (
         <nav className="container">
             <div className="logo">
@@ -35,7 +27,7 @@ const Nav = () => {
                     ))
                 }
 
-                <button className="btn1" >Contact US</button>
+                <button className="btn1" onClick={() => showContactpage()} >Contact US</button>
             </div>
 
         </nav>
