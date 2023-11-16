@@ -44,3 +44,61 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 2px;
  }
+
+ @media (max-width:500px) {
+    .awardList {
+
+       display: flex;
+       flex-direction: column;
+    }
+
+    .div-for-award {
+       transition: transform 2s;
+    }
+
+    .div-for-award:hover {
+       transform: scale(0.9);
+    }
+
+ }
+
+ @media (min-width:500px) and (max-width:600px) {
+    .awardList {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .div-for-award {
+       width: 200px;
+       transition: transform 2s;
+    }
+
+    .div-for-award:hover {
+       transform: scale(0.9);
+    }
+
+    .div-for-award>img {
+       width: 100px;
+    }
+ }
+
+ @media (min-width:700px) and (max-width:1300px) {
+    .awardList {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .div-for-award {
+       width: 300px;
+       transition: transform 2s;
+    }
+
+
+    .div-for-award:hover {
+       transform: scale(0.9);
+    }
+
+    .div-for-award>img {
+       width: 170px;
+    }
+ }

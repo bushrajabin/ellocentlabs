@@ -51,3 +51,70 @@
 .highlightImages>p {
     font-size: 20px;
 }
+
+@media (max-width:500px) {
+    .highlightDiv {
+        width: 100vw;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .highlightImages {
+        justify-content: space-around;
+        width: 160px;
+        height: 350px;
+        font-size: 10px;
+        gap: 0px;
+        padding: 0px;
+
+    }
+
+    .highlightImages>img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .highlightDiv {
+        width: 100vw;
+    }
+
+    .bottom {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .highlightImages {
+        width: 200px;
+    }
+
+    .highlightImages>img {
+        width: 170px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1500px) {
+    .bottom {
+        display: flex;
+        width: auto;
+    }
+   .highlightImages>img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+}

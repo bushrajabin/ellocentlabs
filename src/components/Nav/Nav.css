@@ -11,6 +11,7 @@
     cursor: pointer;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .logo {
@@ -47,4 +48,25 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+@media (max-width:500px){
+    .container{
+        background-color: red;
+        display: flex;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 600px){
+    .container{
+        background-color: teal;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px){
+.container{
+    background-color: yellow;
+}
 }

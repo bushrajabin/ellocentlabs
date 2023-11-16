@@ -7,10 +7,10 @@ import "./Nav.css"
 
 const Nav = ({ setIsOpen }) => {
     const showContactpage = () => {
-// alert("hii")
+        alert("hii")
         setIsOpen(true)
     }
-const links = ["Services", "Technologies", "industries", "Portfolio", "Blog", "Company"]
+    const links = ["Services", "Technologies", "industries", "Portfolio", "Blog", "Company"]
     return (
         <nav className="container">
             <div className="logo">

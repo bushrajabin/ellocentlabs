@@ -1,27 +1,64 @@
-.client{
- 
-}
-
-.clientResult{
+.clientResult {
     text-align: center;
     color: lightseagreen;
     font-size: 25px;
     letter-spacing: 2px;
 }
 
-.ifarmevideo{
+.ifarmevideo {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.videos{
+.videos {
     object-fit: cover;
     width: 660px;
     height: 400px;
     margin: 10px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
-  
+
+}
+
+@media (max-width:500px) {
+    .client {
+        width: 100vw;
+    }
+
+    .ifarmevideo {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .videos {
+        width: 350px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .ifarmevideo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videos {
+        width: 500px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1400px) {
+    .client {
+        width: auto;
+    }
+
+    .ifarmevideo {
+        display: flex;
+        flex-direction: column;
+    }
 }
