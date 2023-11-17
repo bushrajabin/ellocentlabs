@@ -1,0 +1,22 @@
+.technology-top{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.technology-top-title>button{
+background-color: transparent;
+border: none;
+font-size: 20px;
+color: white;
+}
+
+.technology-top-title>h1{
+    font-size: 50px;
+}
+
+.technology-top-title>button:hover{
+    color: black;
+}

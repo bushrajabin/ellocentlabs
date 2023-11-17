@@ -12,6 +12,7 @@ import Blog from "../components/Blog/Blog"
 import Form from "../components/Form/Form"
 import Contact from "../components/contact/Contact"
 import Industries from "../components/industre/Industries"
+import Technology from "../components/Technologies/Technology"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -30,7 +31,8 @@ const Home = () => {
             {/* <Trade /> */}
             <Blog />
             <Form />
-            <Industries/>
+            {/* <Industries/> */}
+            <Technology/>
             {/* <Contact/> */}
         </React.Fragment>
     )
