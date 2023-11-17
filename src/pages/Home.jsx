@@ -11,6 +11,7 @@ import Trade from "../components/TradePage/TradePage"
 import Blog from "../components/Blog/Blog"
 import Form from "../components/Form/Form"
 import Contact from "../components/contact/Contact"
+import Industries from "../components/industre/Industries"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -19,16 +20,17 @@ const Home = () => {
 
         <React.Fragment>
 
-            <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} />
+            {/* <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} /> */}
             <About />
             <Highlight />
             <Clients />
             <ClientSay />
             <Awards />
             <Work />
-            <Trade />
+            {/* <Trade /> */}
             <Blog />
             <Form />
+            <Industries/>
             {/* <Contact/> */}
         </React.Fragment>
     )
