@@ -24,8 +24,8 @@ const Home = () => {
             <Awards />
             <Work />
             <Trade />
-            <Blog />
-            <Form />
+            {/* <Blog />
+            <Form /> */}
         </React.Fragment>
     )
 }

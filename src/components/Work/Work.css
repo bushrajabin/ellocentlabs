@@ -52,3 +52,32 @@
     background-color: lightskyblue;
     transform: scale(0.9);
 }
+
+
+@media (max-width:500px) {
+    .package-div {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .left_images>h2 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width:500px) and (max-width:600px) {
+    .package-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:700px) and (max-width:1300px) {
+    .package-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
