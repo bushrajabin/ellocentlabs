@@ -2,11 +2,13 @@
 
 // const ReactLogo ='/Images/logo.avif'
 import React from 'react';
-
-// import { useEffect, useState } from "react"
 import "./Nav.css"
 
-const Nav = ({ setIsOpen }) => {
+const Nav = ({ setIsOpen, setActiveLink, activeLinks }) => {
+
+    const handleLinkClick = (value) => {
+        alert(`You clicked on ${value}`);
+    }
     const showContactpage = () => {
         setIsOpen(true)
     }
@@ -21,13 +23,15 @@ const Nav = ({ setIsOpen }) => {
             <div className="link">
                 {
                     links.map((links) => (
-                        <a key={links} >
+                        <a key={links}
+                            onClick={() => handleLinkClick(links)}
+                            className={activeLinks === links ? 'active' : ''} >
                             {links}
                         </a>
                     ))
                 }
-                    <button className="btn1" onClick={() => showContactpage()} >Contact US</button>
-           
+                <button className="btn1" onClick={() => showContactpage()} >Contact US</button>
+
 
             </div>
 

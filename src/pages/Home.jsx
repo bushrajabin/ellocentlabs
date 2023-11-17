@@ -14,12 +14,12 @@ import Contact from "../components/contact/Contact"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [activeLinks, setActiveLinks] = useState(null)
     return (
 
         <React.Fragment>
 
-            {/* <Nav setIsOpen={setIsOpen} /> */}
-
+            <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} />
             <About />
             <Highlight />
             <Clients />
@@ -29,7 +29,6 @@ const Home = () => {
             <Trade />
             <Blog />
             <Form />
-
             {/* <Contact/> */}
         </React.Fragment>
     )
