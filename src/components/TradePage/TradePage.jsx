@@ -36,13 +36,8 @@ const Tradepage = () => {
             })
           }
         </div>
-
       </div>
-
-      <div className="webImage">
-        <img src={webImage}></img>
-
-      </div>
+      <img src={webImage}></img>
 
     </div>
 

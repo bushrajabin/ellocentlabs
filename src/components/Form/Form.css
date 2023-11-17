@@ -73,3 +73,126 @@ textarea {
     position: relative;
     left: 55px;
 }
+
+@media (max-width:500px) {
+    .form_page {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    input {
+        width: 80%;
+        margin: 20px;
+    }
+
+    select {
+        width: 90%;
+        padding: 12px;
+        margin-top: 8px;
+        font-family: Cursive;
+        line-height: 1;
+        border-radius: 5px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    #text {
+        width: 80%;
+        margin-left: 0px;
+        margin: 19px;
+    }
+
+    .form_input_field>i {
+        position: relative;
+        left: 30px;
+        top: 55px;
+    }
+    .submitButton{
+        margin: 10px;
+     margin-left: 35%;
+     font-size: 20px;
+     width: auto;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:600px) {
+    input {
+        width: 80%;
+        margin: 20px;
+    }
+
+    select {
+        width: 90%;
+        padding: 12px;
+        margin-top: 8px;
+        font-family: Cursive;
+        line-height: 1;
+        border-radius: 5px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .form_input_field>i {
+        position: relative;
+        left: 40px;
+        top: 0px;
+    }
+
+    #text {
+        width: 83%;
+        margin: 10px;
+        margin-left: 30px;
+    }
+    .submitButton{
+        margin: 10px;
+     margin-left: 40%;
+     font-size: 20px;
+     width: auto;
+    }
+
+
+}
+
+
+@media (min-width:700px) and (max-width:1300px) {
+    input {
+        width: 89%;
+        margin: 10px;
+        padding: 25px;
+        font-size: 22px;
+    }
+
+    select {
+        width: 95%;
+        padding: 23px;
+        margin-top: 8px;
+        font-family: Cursive;
+        line-height: 1;
+        border-radius: 5px;
+        margin-left: 24px;
+        font-size: 20px;
+    }
+
+    .form_input_field>i {
+        position: relative;
+        left: 32px;
+
+    }
+
+    #text {
+        width: 90%;
+        margin: 10px;
+        margin-left: 20px;
+        padding: 20px;
+        font-size: 35px;
+    }
+
+    .submitButton{
+        margin: 10px;
+     margin-left: 40%;
+     font-size: 40px;
+     width: auto;
+    }
+
+}

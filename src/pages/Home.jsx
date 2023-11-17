@@ -10,22 +10,27 @@ import Work from "../components/Work/Work"
 import Trade from "../components/TradePage/TradePage"
 import Blog from "../components/Blog/Blog"
 import Form from "../components/Form/Form"
+import Contact from "../components/contact/Contact"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
     return (
 
         <React.Fragment>
+
             {/* <Nav setIsOpen={setIsOpen} /> */}
+
             <About />
             <Highlight />
-            <Clients/>
-            <ClientSay /> 
+            <Clients />
+            <ClientSay />
             <Awards />
             <Work />
             <Trade />
-            {/* <Blog />
-            <Form /> */}
+            <Blog />
+            <Form />
+
+            {/* <Contact/> */}
         </React.Fragment>
     )
 }

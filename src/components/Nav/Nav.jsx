@@ -1,13 +1,13 @@
 // import {ReactComponent as ReactLogo} from '/images/logo.avif';
 
 // const ReactLogo ='/Images/logo.avif'
+import React from 'react';
 
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
 import "./Nav.css"
 
 const Nav = ({ setIsOpen }) => {
     const showContactpage = () => {
-        alert("hii")
         setIsOpen(true)
     }
     const links = ["Services", "Technologies", "industries", "Portfolio", "Blog", "Company"]
@@ -26,8 +26,9 @@ const Nav = ({ setIsOpen }) => {
                         </a>
                     ))
                 }
+                    <button className="btn1" onClick={() => showContactpage()} >Contact US</button>
+           
 
-                <button className="btn1" onClick={() => showContactpage()} >Contact US</button>
             </div>
 
         </nav>
