@@ -340,3 +340,4 @@ export const industries = [
       "We offer custom media and entertainment mobile app development solutions to our prestigious clients based as per their specifications. The unique app designed will not only become a household name, but also remain above the ever-growing crowd of entertainment mobile apps.",
   },
 ];
+

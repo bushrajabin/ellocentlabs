@@ -20,3 +20,33 @@ color: white;
 .technology-top-title>button:hover{
     color: black;
 }
+
+.technology-bottom-image{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.technology-left-titles{
+
+    padding: 10px;
+}
+
+.technology-left-titles>h2{
+    font-size: 40px;
+    color: deepskyblue;
+}
+
+.technology-left-titles>h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.technology-left-titles>p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.technology-right-image>img{
+    width: 500px;
+    margin: 20px;
+}

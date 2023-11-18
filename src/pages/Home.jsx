@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "react-router-dom";
 // import { useEffect, useState } from "react"
 import Nav from "../components/Nav/Nav"
 import About from "../components/About/About"
@@ -16,7 +17,7 @@ import Technology from "../components/Technologies/Technology"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
-    const [activeLinks, setActiveLinks] = useState(null)
+    // const [activeLinks, setActiveLinks] = useState(null)
     return (
 
         <React.Fragment>
@@ -28,11 +29,11 @@ const Home = () => {
             <ClientSay />
             <Awards />
             <Work />
-            {/* <Trade /> */}
+            <Trade />
             <Blog />
             <Form />
             {/* <Industries/> */}
-            <Technology/>
+            <Technology />
             {/* <Contact/> */}
         </React.Fragment>
     )
