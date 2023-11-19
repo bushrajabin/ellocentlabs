@@ -1,4 +1,4 @@
-.technology-top{
+.technology-top {
     background-color: skyblue;
     display: flex;
     flex-direction: row;
@@ -6,47 +6,117 @@
     padding: 40px;
 }
 
-.technology-top-title>button{
-background-color: transparent;
-border: none;
-font-size: 20px;
-color: white;
+.technology-top-title>button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
 }
 
-.technology-top-title>h1{
+.technology-top-title>h1 {
     font-size: 50px;
 }
 
-.technology-top-title>button:hover{
+.technology-top-title>button:hover {
     color: black;
 }
 
-.technology-bottom-image{
+.technology-bottom-image {
     display: flex;
     flex-direction: row;
     padding: 20px;
 }
 
-.technology-left-titles{
+.technology-left-titles {
 
     padding: 10px;
 }
 
-.technology-left-titles>h2{
+.technology-left-titles>h2 {
     font-size: 40px;
     color: deepskyblue;
 }
 
-.technology-left-titles>h3{
+.technology-left-titles>h3 {
     font-size: 25px;
     letter-spacing: 2px;
 }
 
-.technology-left-titles>p{
+.technology-left-titles>p {
     font-size: 20px;
     letter-spacing: 2px;
 }
-.technology-right-image>img{
+
+.technology-right-image>img {
     width: 500px;
     margin: 20px;
+}
+
+
+@media (max-width:500px) {
+    .technology-top-title>h1 {
+        font-size: 20px;
+    }
+
+    .technology-image>img {
+        width: 200px;
+    }
+
+    .technology-bottom-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .technology-left-titles>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .technology-left-titles>h3 {
+        font-size: 20px;
+    }
+
+    .technology-left-titles>p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .technology-right-image>img {
+        width: 100%;
+        margin: 0px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .technology-top-title>h1 {
+        font-size: 20px;
+    }
+
+    .technology-bottom-image {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1300px) {
+    .technology-top-title>h1 {
+        font-size: 20px;
+    }
+
+    .technology-bottom-image {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .technology-left-titles>p {
+        font-size: 27px;
+    }
+
+    .technology-right-image>img {
+        width: 100%;
+    }
+
 }
