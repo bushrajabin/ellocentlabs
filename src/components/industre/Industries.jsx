@@ -1,4 +1,4 @@
-import { industries } from "../../common/common"
+import { industries } from "../../apiData/Industries"
 import "./Industries.css"
 const industry = "./Images/industry.png"
 

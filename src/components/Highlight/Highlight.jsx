@@ -1,4 +1,4 @@
-import { highlightKey } from '../../common/common';
+import { highlightKey } from '../../apiData/HighlightKey'
 import './Highlight.css'
 const Highlight = () => {
     return (

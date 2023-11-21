@@ -7,7 +7,7 @@ import Highlight from "../components/Highlight/Highlight"
 import Clients from "../components/Clients/Clients"
 import ClientSay from "../components/ClientsSay/ClientsSay"
 import Awards from "../components/Awarads/Awards"
-import Work from "../components/Work/Work"
+import Work from "./Work"
 import Trade from "../components/TradePage/TradePage"
 import Blog from "../components/Blog/Blog"
 import Form from "../components/Form/Form"
@@ -17,12 +17,12 @@ import Technology from "../components/Technologies/Technology"
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
-    // const [activeLinks, setActiveLinks] = useState(null)
+    const [activeLinks, setActiveLinks] = useState(null)
     return (
 
         <React.Fragment>
 
-            {/* <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} /> */}
+            <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} />
             <About />
             <Highlight />
             <Clients />
@@ -33,7 +33,7 @@ const Home = () => {
             <Blog />
             <Form />
             {/* <Industries/> */}
-            <Technology />
+            {/* <Technology /> */}
             {/* <Contact/> */}
         </React.Fragment>
     )

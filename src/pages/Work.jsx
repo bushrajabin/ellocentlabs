@@ -1,5 +1,5 @@
-import { workImage } from "../../common/common";
-import "./Work.css"
+import { workImage } from "../common/common";
+import "../components/Work/Work.css"
 const Work = () => {
     return (
         <div className="packageDiv">

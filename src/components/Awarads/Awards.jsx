@@ -1,4 +1,4 @@
-import { awardImages } from "../../common/common"
+import {awardImages} from '../../apiData/AwardImages'
 import "./Awards.css"
 const Awards = () => {
 
