@@ -6,10 +6,10 @@ export default function ErrorPage() {
   const error = useRouteError();
   console.error(error);
 
-  return (
+ return (
     <div className="errorimage">
       <img src={errorImage} alt="" />
-      <button>Back</button>
+      {/* <button onClick={backHomePage}>Back</button> */}
     </div>
   );
 }
