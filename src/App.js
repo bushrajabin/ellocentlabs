@@ -4,11 +4,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
+import ErrorPage from "./ErrorPage";
 import { Services } from "./common/common";
 const router = createBrowserRouter([
   {
     path: "*",
-    element: <>  <h3> Ths is an error!!</h3> </>,
+   element:<ErrorPage/>
   },
   {
     path: "/",
