@@ -34,11 +34,11 @@ const Tradepage = () => {
 
               )
             })
-          }
-        </div>
+          }        </div>
       </div>
-      <img src={webImage}></img>
-
+      <div className="award-left-image">
+          <img src={webImage}></img>
+        </div>
     </div>
 
   )
