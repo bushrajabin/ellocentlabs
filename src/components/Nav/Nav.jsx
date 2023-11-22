@@ -14,14 +14,18 @@ const Nav = ({ isOpen, setIsOpen, activeLinks }) => {
         setIsOpen(true);
     };
 
+    const backToHome = () => {
+        navigate('/')
+    }
 
     return (
         <nav className="container">
-            <div className="logo">
+            <div className="logo" onClick={backToHome}>
                 <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ3LF8LvX6rVhvBAr_jnh7W7TCJVdAecf7Fw&usqp=CAU"
                     alt=""
                 />
+
             </div>
             <div className="link">
                 {links.map((links) => (
