@@ -15,6 +15,8 @@ import Contact from "../components/contact/Contact"
 import Industries from "../components/industre/Industries"
 import Technology from "../components/Technologies/Technology"
 
+import Footer from "../components/Footer/Footer";
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [activeLinks, setActiveLinks] = useState(null)
@@ -32,6 +34,7 @@ const Home = () => {
             <Trade />
             <Blog />
             <Form />
+            <Footer/>
             {/* <Industries/> */}
             {/* <Technology /> */}
             {/* <Contact/> */}
