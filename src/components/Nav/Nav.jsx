@@ -4,7 +4,7 @@ import "./Nav.css";
 import { useNavigate } from "react-router-dom";
 import { links } from "../../apiData/NavLinks";
 
-const Nav = ({ setIsOpen, activeLinks }) => {
+const Nav = ({ isOpen, setIsOpen, activeLinks }) => {
     const navigate = useNavigate();
 
     const handleLinkClick = (links) => {

@@ -1,5 +1,5 @@
 import { socialImage } from "../../apiData/Social"
-import "./Footer.css"
+
 const Footer = () => {
     return (
         <div className="main-flex-container">

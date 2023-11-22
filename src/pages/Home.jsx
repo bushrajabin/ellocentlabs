@@ -18,13 +18,12 @@ import Technology from "../components/Technologies/Technology"
 import Footer from "../components/Footer/Footer";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false)
-    const [activeLinks, setActiveLinks] = useState(null)
+    // const [isOpen, setIsOpen] = useState(false)
+    // const [activeLinks, setActiveLinks] = useState(null)
     return (
 
         <React.Fragment>
-
-            <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} />
+            {/* <Nav setIsOpen={setIsOpen} setActiveLinks={setActiveLinks} activeLinks={activeLinks} /> */}
             <About />
             <Highlight />
             <Clients />
@@ -34,7 +33,7 @@ const Home = () => {
             <Trade />
             <Blog />
             <Form />
-            <Footer/>
+            {/* <Footer/> */}
             {/* <Industries/> */}
             {/* <Technology /> */}
             {/* <Contact/> */}

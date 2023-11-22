@@ -26,9 +26,9 @@ const Form = () => {
             </div>
 
             <div className="form_input_field">
-                < i class="fa fa -solid fa-user" /><input type="text" placeholder="Name" value={Name} onChange={(e) => setName(e.target.value)} />
-                <i class="fa fa-solid fa-envelope"></i><input type="email" placeholder="Email" value={Email} onChange={(e) => setEmail(e.target.value)} /><br></br>
-                <i class="fa fa-solid fa-phone"></i><input type="number" value={Contact} onChange={(e) => setContact(e.target.value)} />
+                < i className="fa fa -solid fa-user" /><input type="text" placeholder="Name" value={Name} onChange={(e) => setName(e.target.value)} />
+                <i className="fa fa-solid fa-envelope"></i><input type="email" placeholder="Email" value={Email} onChange={(e) => setEmail(e.target.value)} /><br></br>
+                <i className="fa fa-solid fa-phone"></i><input type="number" value={Contact} onChange={(e) => setContact(e.target.value)} />
 
                 <select id="options" value={Select} onChange={(e) => setSelect(e.target.value)} >
                     <option value="select">Select Services </option>
@@ -39,7 +39,7 @@ const Form = () => {
                     <option value="igital Marketing">Digital Marketing</option>
                 </select>
                 <br></br>
-            <textarea name="" id="text" cols="100" rows="1" placeholder="Note" value={TextArea} onChange={(e) => setTextArea(e.target.value)}></textarea><br></br>
+                <textarea name="" id="text" cols="100" rows="1" placeholder="Note" value={TextArea} onChange={(e) => setTextArea(e.target.value)}></textarea><br></br>
                 <button className="submitButton" onClick={SubmitForm}>SUBMIT</button>
             </div>
 
