@@ -10,6 +10,7 @@ import Work from "./Work"
 import Trade from "../components/TradePage/TradePage"
 import Blog from "../components/Blog/Blog"
 import Form from "../components/Form/Form"
+import Ai from "../servicesPage/AiPage/Ai";
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
             <Trade />
             <Blog />
             <Form />
+            <Ai/>
 
         </React.Fragment>
     )

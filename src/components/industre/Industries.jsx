@@ -11,8 +11,6 @@ const Industries = () => {
     }
     return (
         <div className="industry-container">
-
-
             <div className="industry">
                 <div className="industry-title">
                     <h2>Industries</h2>
