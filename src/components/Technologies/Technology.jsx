@@ -1,13 +1,19 @@
+
+import { useNavigate } from "react-router-dom";
 import "./Technology.css"
 const technologyImage = "./Images/tech2.png"
 const image2 = "./Images/technology.png"
 const Technology = () => {
+    const navigate = useNavigate();
+    const backHome = () => {
+      navigate('/')
+    }
     return (
         <div className="technology-container">
             <div className="technology-top">
                 <div className="technology-top-title">
                     <h1>Technologies</h1>
-                    <button>Home</button>
+                    <button onClick={backHome}>Home</button>
                 </div>
                 <div className="technology-image">
                     <img src={technologyImage} alt="" />

@@ -7,62 +7,17 @@ import Home from "./pages/Home";
 import ErrorPage from "./ErrorPage";
 import Footer from "./components/Footer/Footer";
 import Nav from "./components/Nav/Nav";
-import { Services } from "./common/common";
 import { isValidInputTimeValue } from "@testing-library/user-event/dist/utils";
+import Industries from "./components/industre/Industries";
+import Technology from "./components/Technologies/Technology";
+import Blog from "./components/Blog/Blog";
+import Work from "./pages/Work";
+import Service from "./components/Service/Service";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLinks, setActiveLinks] = useState(null);
 
-  const router = [
-    {},
-    {},
-
-    {
-      path: "/services",
-      element: (
-        <>
-          <h2>this is services page</h2>
-        </>
-      ),
-    },
-    {
-      path: "/technologies",
-      element: (
-        <>
-          {" "}
-          <h2>this is indutries page</h2>
-        </>
-      ),
-    },
-    {
-      path: "/industries",
-      element: (
-        <>
-          {" "}
-          <h2>this is services page</h2>
-        </>
-      ),
-    },
-    {
-      path: "/work",
-      element: (
-        <>
-          {" "}
-          <h2>this is services page</h2>
-        </>
-      ),
-    },
-    {
-      path: "/blog",
-      element: (
-        <>
-          {" "}
-          <h2>this is services page</h2>
-        </>
-      ),
-    },
-  ];
 
   return (
     <>
@@ -75,8 +30,11 @@ function App() {
         <Routes>
           <Route path="*" element={<ErrorPage />} />
           <Route path="/" element={<Home />} />
-          <Route path="/services" element={<h2>services page!</h2>} />
-          <Route path="/industries" element={<h3>industries</h3>} />
+          <Route path="/services" element={<Service />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/technologies" element={<Technology />} />
+          <Route path="/Blog" element={<Blog/>} />
+          <Route path="/work" element={<Work />} />
         </Routes>
 
         <Footer />

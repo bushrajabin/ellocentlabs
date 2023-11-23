@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 40px;
+    margin-top: 90px;
 }
 
 .technology-top-title>button {
@@ -28,8 +29,8 @@
 }
 
 .technology-left-titles {
-
     padding: 10px;
+    width: 60%;
 }
 
 .technology-left-titles>h2 {
@@ -48,8 +49,8 @@
 }
 
 .technology-right-image>img {
-    width: 500px;
-    margin: 20px;
+    width: 30vw;
+    margin: 10px;
 }
 
 

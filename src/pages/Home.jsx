@@ -10,9 +10,7 @@ import Work from "./Work"
 import Trade from "../components/TradePage/TradePage"
 import Blog from "../components/Blog/Blog"
 import Form from "../components/Form/Form"
-import Contact from "../components/contact/Contact"
-import Industries from "../components/industre/Industries"
-import Technology from "../components/Technologies/Technology"
+
 const Home = () => {
 
     return (
@@ -27,10 +25,7 @@ const Home = () => {
             <Trade />
             <Blog />
             <Form />
-            {/* <Footer/> */}
-            {/* <Industries/> */}
-            {/* <Technology /> */}
-            {/* <Contact/> */}
+
         </React.Fragment>
     )
 }

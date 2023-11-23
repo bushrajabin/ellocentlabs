@@ -1,8 +1,14 @@
+
 import { industries } from "../../apiData/Industries"
+import { useNavigate } from "react-router-dom";
 import "./Industries.css"
 const industry = "./Images/industry.png"
 
 const Industries = () => {
+    const navigate = useNavigate();
+    const backHome = () => {
+      navigate('/')
+    }
     return (
         <div className="industry-container">
 
@@ -10,7 +16,7 @@ const Industries = () => {
             <div className="industry">
                 <div className="industry-title">
                     <h2>Industries</h2>
-                    <button>Homes</button>
+                    <button onClick={backHome}>Home</button>
                 </div>
 
                 <div className="industry-image">
