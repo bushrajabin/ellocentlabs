@@ -13,11 +13,11 @@ import Technology from "./components/Technologies/Technology";
 import Blog from "./components/Blog/Blog";
 import Work from "./pages/Work";
 import Service from "./components/Service/Service";
+import Ai from "./servicesPage/AiPage/Ai";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLinks, setActiveLinks] = useState(null);
-
 
   return (
     <>
@@ -27,14 +27,16 @@ function App() {
           activeLinks={activeLinks}
           setActiveLinks={setActiveLinks}
         />
+
         <Routes>
           <Route path="*" element={<ErrorPage />} />
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Service />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/technologies" element={<Technology />} />
-          <Route path="/Blog" element={<Blog/>} />
+          <Route path="/Blog" element={<Blog />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/ai" element={<Ai />} />
         </Routes>
 
         <Footer />

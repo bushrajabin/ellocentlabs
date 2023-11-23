@@ -1,6 +1,8 @@
 import { Services } from "../../common/common";
+import { useNavigate } from "react-router-dom";
 import "./Service.css"
 const Service = () => {
+    const navigate = useNavigate();
     return (
         <div className="services-container">
             {
@@ -9,7 +11,10 @@ const Service = () => {
                     return (
                         <div className="services">
                             <div className="service-heading">
-                                <h3>{heading}</h3>
+                      
+                                    <h3>{heading}</h3>
+
+
                             </div>
 
                             <div className="service-types">

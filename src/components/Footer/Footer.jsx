@@ -2,11 +2,11 @@ import { socialImage } from "../../apiData/Social"
 
 const Footer = () => {
     return (
-        <div className="main-flex-container  md: bg-red-700">
-            <div className=" cursor-pointer md:  flex flex-col">
-                <div className=" pt-9 px-10 w-1/2 text-lg flex flex-col gap-4  ">
-                    <h2 className="text-4xl">About Company</h2>
-                    <p className="text-l tracking-wide">We at Ellocent Labs IT Solutions Pvt. Ltd. use Scrum, the most popular Agile Framework in our software development process. This is an iterative approach that has at its core the sprint — the scrum term for iteration.</p>
+        <div className=" bg-red-700  sm:bg-pink-400 md:bg-yellow-200 lg:bg-green-400  xl:bg-teal-300 ">
+            <div className="  bg-yellow-700 cursor-pointer md:bg-red-200 lg:bg-blue-500 xl:bg-pink-600 flex flex-col ">
+                <div className="bg-red-950  md:bg-red-200 text-sm text-yellow-950  lg:bg-blue-500 xl:bg-pink-600 flex flex-col  ">
+                    <h2 className="text-4xl pt-5 px-5">About Company</h2>
+                    <p className=" pt-2 px-5 tracking-wide text-pink-500 text-lg  md:text-2xl   sm:text-red-600 text-sm  lg:text-yellow-300 ">We at Ellocent Labs IT Solutions Pvt. Ltd. use Scrum, the most popular Agile Framework in our software development process. This is an iterative approach that has at its core the sprint — the scrum term for iteration.</p>
                 </div>
                 <div className=" w-96 pt-10  flex flex-col gap-4 text-center">
                     <h3 className="text-2xl ">Useful Links</h3>

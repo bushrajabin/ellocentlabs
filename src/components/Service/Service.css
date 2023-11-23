@@ -1,13 +1,14 @@
-.services-container{
+.services-container {
     background-color: whitesmoke;
     display: flex;
     flex-direction: row;
     padding: 10px;
     justify-content: space-between;
     margin-top: 90px;
+    cursor: pointer;
 }
 
-.services{
+.services {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -15,17 +16,18 @@
     height: auto;
     padding: 10px;
 }
-.service-heading>h3{
-justify-content: center;
-margin-top: 0px;
+
+.service-heading>h3 {
+    justify-content: center;
+    margin-top: 0px;
 }
 
-.service-types>p{
-width: auto;
+.service-types>p {
+    width: auto;
     display: flex;
     flex-direction: column;
     padding: 10px;
     font-size: 17px;
-/* margin: 49px; */
+    /* margin: 49px; */
 
 }
