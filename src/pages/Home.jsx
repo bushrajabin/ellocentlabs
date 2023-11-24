@@ -26,7 +26,7 @@ const Home = () => {
             <Trade />
             <Blog />
             <Form />
-            {/* <Ai/> */}
+            <Ai/>
 
         </React.Fragment>
     )

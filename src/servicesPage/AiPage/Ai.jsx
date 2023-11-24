@@ -1,5 +1,7 @@
+import { aiData } from "../../apiData/Ai"
 const aiImage = "./Images/ai.png"
 const chatBotImage = "./Images/chat-bot.png"
+
 
 const Ai = () => {
     return (
@@ -25,8 +27,32 @@ const Ai = () => {
 
                 </div>
                 <div className=" px-10 pt-10" >
-                    <img src={chatBotImage} alt="" className="max-w-xl max-h-full px-9"/>
+                    <img src={chatBotImage} alt="" className="max-w-xl max-h-full px-9" />
                 </div>
+            </div>
+
+            <div>
+                <div className="text-center ">
+                    <h2 className="text-4xl font-bold text-slate-800 pt-6" >Applications</h2>
+                    <h3 className="text-2xl pb-5 pt-3">Artificial Intelligence Applications</h3>
+                </div>
+                <div className="flex flex-row flex-wrap  justify-between  p-20 w-auto">
+                    {
+
+                        aiData.map((data, index, arr) => {
+                            const { title, image,number } = data
+                            return (
+                                <div className=" bg-slate-200 flex flex-row flex-row-reverse m-7 p-6 w-80  h-auto rounded-br-3xl">
+                                    <img src={number} alt=""  className=" w-12  relative right-64 pr-2 mr-3 "/>
+                                    <img src={image} alt="" className=" w-16  h-16 relative bottom-14 left-28 m-4" />
+                                    <h2 className="text-2xl p-0 ml-9">{title}</h2>
+                                </div>
+                            )
+                        })
+
+                    }
+                </div>
+
             </div>
         </div>
 
