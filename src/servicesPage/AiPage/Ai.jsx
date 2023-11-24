@@ -42,10 +42,10 @@ const Ai = () => {
                         aiData.map((data, index, arr) => {
                             const { title, image,number } = data
                             return (
-                                <div className=" bg-slate-200 flex flex-row flex-row-reverse m-7 p-6 w-80  h-auto rounded-br-3xl">
-                                    <img src={number} alt=""  className=" w-12  relative right-64 pr-2 mr-3 "/>
+                                <div className=" bg-slate-200 flex flex-row flex-row-reverse m-7 p-6 w-96  h-auto rounded-br-3xl">
+                                    <img src={number} alt=""  className=" w-12  relative right-80 pr-2 mr-3 "/>
                                     <img src={image} alt="" className=" w-16  h-16 relative bottom-14 left-28 m-4" />
-                                    <h2 className="text-2xl p-0 ml-9">{title}</h2>
+                                    <h2 className="text-2xl ml-3">{title}</h2>
                                 </div>
                             )
                         })
